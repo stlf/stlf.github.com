@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset=utf-8 />
+    <title>
+      {% if page.title %} {{ page.title }} | {% endif %} Life of a Qt Developer
+    </title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <header>
+        <h1>
+          Life of a Qt Developer
+        </h1>
+        <header>
+          <nav role="navigation">
+            <ul>
+              <li>
+                <a href="/"> Home </a>
+              </li>
+              <li>
+                <a href="/Archive/"> Archive </a>
+              </li>
+              <li>
+                <a href="/categories"> Categories </a>
+              </li>
+              <li>
+                <a href="/pages"> Pages </a>
+              </li>
+              <li>
+                <a href="/tags"> Tages </a>
+              </li>
+            </ul>
+          </nav>
+          {{ content }}
+          <footer>
+            <p>
+              @copy; stlf 2014 | All Rights Reserved.
+            </p>
+          </footer>
+    </div>
+  </body>
+
+</html>
