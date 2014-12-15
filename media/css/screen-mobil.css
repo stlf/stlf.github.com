@@ -81,7 +81,8 @@ body>div {
     -moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
     box-shadow: 0 0 10px 0 #cfcfcf;
-    border-top: 6px solid #EE0000;
+    /*border-top: 6px solid #EE0000;*/
+    border-top: 6px solid #5AA72D;
 }
 h1 {
     font-size: 28px;
@@ -252,7 +253,8 @@ footer a {
 margin: 1px;
 border: 1px solid rgba(1,1,1,0);
 border-bottom: 1px dashed #BBB;
-color: #B9221F;
+/*color: #B9221F;*/
+color: #2A822E;
 text-decoration: none;
 }
 
