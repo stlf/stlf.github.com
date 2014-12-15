@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://stlf.github.io
+url: https://stlf.github.io
 author: stlf
 pygments: true
 paginate: 24
