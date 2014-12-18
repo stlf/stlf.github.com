@@ -7,7 +7,7 @@
 <!-- Duoshuo Comment BEGIN -->
 	<div class="ds-thread"></div>
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"_???_"};
+var duoshuoQuery = {short_name:"10129068"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
