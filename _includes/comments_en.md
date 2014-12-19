@@ -7,7 +7,7 @@
  <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = '_???_'; // required: replace example with your forum shortname
+        var disqus_shortname = 'stlfblog'; // required: replace example with your forum shortname
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
