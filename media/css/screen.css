@@ -165,7 +165,8 @@ a {
 	text-decoration: none;
 }
 a:visited {
-    color: #B22222;
+    /*color: #B22222;*/
+    color: #2A822E;
 	text-decoration: none;
 }
 a.ss-icon {
