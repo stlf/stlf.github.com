@@ -158,11 +158,11 @@ hr {
     margin: 0 0 22px 0;
 }
 a {
-    color: #044E1C;
+    color: #2A822E;
 	text-decoration: none;
 }
 a:visited {
-    color: #044E1C;
+    color: #2A822E;
 	text-decoration: none;
 }
 a.ss-icon {
@@ -171,7 +171,7 @@ a.ss-icon {
 	color: #ccc;
 }
 a:hover {
-    color: #044E1C;
+    color: #2A822E;
 }
 em {
     font-style: italic;
@@ -230,7 +230,7 @@ text-decoration: none;
 
 .paginator .current-page {
 color: white;
-background: #044E1C;
+background: #2A822E;
 }
 
 .paginator a:hover{
