@@ -1,4 +1,13 @@
 
+---
+layout: post
+title: javascript基本注意点
+categories:
+- javascript
+tags:
+- javascript, js, node, qml 
+---
+
 
 # javascript基本注意点
 ------
@@ -85,7 +94,7 @@ alert(v3.a); // 3
 
 ## prototype
 
-* 可以近似简单的认为是类的静态成员（共有方法）
+*  可以近似简单的认为是类的静态成员（共有方法）
 *  对象在没有prototype对应属性时使用类的prototype对应属性， 对象有该属性时使用自身属性
 ```
 function DOG(name){
