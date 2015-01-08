@@ -51,6 +51,7 @@ alert(v3.a); // 3
 * 即：外层函数可以访问内层函数内声明的变量， 且内层函数可以直接访问外层函数声明的变量, （除非该变量名在内层被重新定义）， 无需像c++lambda一样定义捕捉符[&]
 
 *  所以最清晰的写法是将函数内要用到的变量在函数开头逐个定义，而不是使用时再定义（这个c++等严格的语言不同哦），具体原因见：
+
 ```
 <script type="text/javascript">
     function rain(){
@@ -64,6 +65,7 @@ alert(v3.a); // 3
     rain();    //调用rain
 </script>
 ```
+
 ```
 <script type="text/javascript">
     var x = 1;
@@ -75,7 +77,9 @@ alert(v3.a); // 3
     rain();
 </script>
 ```
+
 * 未使用var关键字定义的变量都是全局变量:
+
 ```
 <script type="text/javascript">
     function rain(){
@@ -85,12 +89,14 @@ alert(v3.a); // 3
     alert( x );    //会弹出100
 </script>
 ```
+
 这也是JavaScript新手常见的错误，无意之中留下的许多全局变量。所以还是多加 "var" 吧
 
 ## prototype
 
 *  可以近似简单的认为是类的静态成员（共有方法）
-*  对象在没有prototype对应属性时使用类的prototype对应属性， 对象有该属性时使用自身属性
+*  对象在没有prototype对应属性时使用类的prototype对应属性， 对象有该属性时使用自身属性:
+
 ```
 function DOG(name){
 　　　　this.name = name;
