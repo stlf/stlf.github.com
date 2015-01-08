@@ -77,13 +77,11 @@ alert(v3.a); // 3
 * 未使用var关键字定义的变量都是全局变量:
 
 ```
-<script type="text/javascript">
     function rain(){
         x = 100;    //声明了全局变量x并进行赋值
     }
     rain();
     alert( x );    //会弹出100
-</script>
 ```
 
 这也是JavaScript新手常见的错误，无意之中留下的许多全局变量。所以还是多加 "var" 吧
@@ -97,7 +95,6 @@ alert(v3.a); // 3
 function DOG(name){
 　　　　this.name = name;
 }
-
 var test = function()
 {
     console.debug("hello js>>!");
