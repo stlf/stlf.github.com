@@ -1,6 +1,15 @@
-Javascript基本注意点
 ---
-## 基本类型和引用类型
+layout: post
+title: js基本注意点
+categories:
+- javascript
+tags:
+- js, javascript, node, qml 
+---
+
+Javascript基本注意点
+------
+### 基本类型和引用类型
 > 函数参数都是值传递，不论是基本类型(拷贝内容）还是引用类型（拷贝指针）
 > 赋值对于引用类型是拷贝地址, 所以函数内想改函数外变量值 --- 不能用赋值哦，但是可以直接对引用进行操作（这也就是引用和指针的区别：引用可以转换为指向对象的操作）
 '''
@@ -37,7 +46,7 @@ alert(v2.a); // 2
 alert(v3.a); // 3
 '''
 
-## javascript函数没有块级作用域
+### javascript函数没有块级作用域
 > 即：外层函数可以访问内层函数内声明的变量， 且内层函数可以直接访问外层函数声明的变量, （除非该变量名在内层被重新定义）， 无需像c++lambda一样定义捕捉符[&]
 > 所以最清晰的写法是将函数内要用到的变量在函数开头逐个定义，而不是使用时再定义（这个c++等严格的语言不同哦），具体原因见：
 '''<script type="text/javascript">
@@ -78,3 +87,26 @@ alert(v3.a); // 3
 ## prototype
 > 可以近似简单的认为是类的静态成员（共有方法）
 > 对象在没有prototype对应属性时使用类的prototype对应属性， 对象有该属性时使用自身属性
+'''
+function DOG(name){
+　　　　this.name = name;
+}
+
+var test = function()
+{
+    console.debug("hello js>>!");
+
+    DOG.prototype = { species : '犬科' };
+    var dogA = new DOG('大毛');
+    var dogB = new DOG('二毛');
+
+    dogA.species = '大猫科';
+    console.debug(dogA.species); // 大猫科
+    console.debug(dogB.species); // 犬科
+
+    console.debug(DOG.prototype.species) // 犬科
+
+}
+
+
+'''
