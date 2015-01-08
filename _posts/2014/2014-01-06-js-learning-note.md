@@ -52,7 +52,7 @@ alert(v3.a); // 3
 
 *  所以最清晰的写法是将函数内要用到的变量在函数开头逐个定义，而不是使用时再定义（这个c++等严格的语言不同哦），具体原因见：
 
-```
+```sh
 <script type="text/javascript">
     function rain(){
         var x = 1;
@@ -66,7 +66,7 @@ alert(v3.a); // 3
 </script>
 ```
 
-```
+```sh
 <script type="text/javascript">
     var x = 1;
     function rain(){
