@@ -1,12 +1,11 @@
 ---
 layout: post
-title: javascript基本注意点
+title: javascript基本要点
 categories:
-- javascript
+- Javascript
 tags:
-- javascript, js, node, qml 
+- js, javascript, node, qml 
 ---
-
 ## 基本类型和引用类型
 *  函数参数都是值传递，不论是基本类型(拷贝内容）还是引用类型（拷贝指针）
 
