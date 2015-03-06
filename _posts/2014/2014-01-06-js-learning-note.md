@@ -1,6 +1,6 @@
 ---
 layout: post
-title: javascript基本要点
+title: Javascript基本要点
 categories:
 - Javascript
 tags:
@@ -95,8 +95,7 @@ alert(v3.a); // 3
 function DOG(name){
 　　　　this.name = name;
 }
-var test = function()
-{
+var test = function(){
     console.debug("hello js>>!");
 
     DOG.prototype = { species : '犬科' };
