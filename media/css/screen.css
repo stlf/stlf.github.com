@@ -166,7 +166,7 @@ a {
 }
 a:visited {
     /*color: #B22222;*/
-    color: #2A822E;
+    color: #16B1AF;
 	text-decoration: none;
 }
 a.ss-icon {
@@ -234,7 +234,7 @@ text-decoration: none;
 
 .paginator .current-page {
 color: white;
-background: #2A822E;
+background: #16B1AF;
 }
 
 .paginator a:hover{
