@@ -88,7 +88,7 @@ h1 {
     font-size: 28px;
     line-height: 28px;
     margin: 0 0 28px 0;
-	background-color:  #2A822E; /*rgb(185, 34, 31);*/
+	background-color:  #16B1AF; /*rgb(185, 34, 31);*/
 	color: #fff;
 	display: inline-block;
 	padding: 12px;
@@ -158,11 +158,11 @@ hr {
     margin: 0 0 22px 0;
 }
 a {
-    color: #2A822E;
+    color: #16B1AF;
 	text-decoration: none;
 }
 a:visited {
-    color: #2A822E;
+    color: #16B1AF;
 	text-decoration: none;
 }
 a.ss-icon {
@@ -171,7 +171,7 @@ a.ss-icon {
 	color: #ccc;
 }
 a:hover {
-    color: #2A822E;
+    color: #16B1AF;
 }
 em {
     font-style: italic;
@@ -230,7 +230,7 @@ text-decoration: none;
 
 .paginator .current-page {
 color: white;
-background: #2A822E;
+background: #16B1AF;
 }
 
 .paginator a:hover{
@@ -254,7 +254,7 @@ margin: 1px;
 border: 1px solid rgba(1,1,1,0);
 border-bottom: 1px dashed #BBB;
 /*color: #B9221F;*/
-color: #2A822E;
+color: #16B1AF;
 text-decoration: none;
 }
 
