@@ -7,6 +7,7 @@ tags:
 - C++, Javascript, Lambda
 ---
 
+
 ### Javascript中的闭包
 直接用代码吧：
 ```
