@@ -1,5 +1,12 @@
-﻿C++能使用lambda实现类似Javascript中的闭包吗？
------
+﻿---
+layout: post
+title: C++能使用Lambda实现类似Javascript中的闭包吗？
+categories:
+- C++
+tags:
+- C++, Javascript, Lambda
+---
+
 ### Javascript中的闭包
 直接用代码吧：
 ```
