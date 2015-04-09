@@ -8,7 +8,6 @@ tags:
 ---
 
 ### Javascript中的闭包
-直接用代码吧：
 ```
 function a() {
     var i = 0;
