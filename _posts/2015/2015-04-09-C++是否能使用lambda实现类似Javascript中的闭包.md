@@ -42,4 +42,4 @@ c(); // crash！
 > The C++ closures do not extend the lifetimes of the captured references
 
 -  而Javascript中的无块级作用域成就了其闭包特性
->  Javascript是一个MagicLanguage, 例如其可以用闭包实现类似类成员属性的特性
+>  Javascript也是一个Magic Language, 例如其可以用闭包实现类似类成员属性的特性
