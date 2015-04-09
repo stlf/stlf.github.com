@@ -7,7 +7,6 @@ tags:
 - C++, Javascript, Lambda
 ---
 
-
 ### Javascript中的闭包
 直接用代码吧：
 ```
@@ -23,6 +22,7 @@ var c = a(); // i = 1
 c(); // i = 2
 ```
 这是一段很典型的Javascript闭包代码。
+
 ### C++中尝试使用类似代码
 ```
 std::function<int()> a(){
