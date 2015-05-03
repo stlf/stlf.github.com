@@ -18,7 +18,7 @@ Your privacy is very important to us. Accordingly, we have developed this Policy
 
 We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.
 
-### <QBrowser>
+#### QBrowser
 
 This Application does not record any user personal information and location information, the program will protect user privacy, personal information. please assured that use.
 
