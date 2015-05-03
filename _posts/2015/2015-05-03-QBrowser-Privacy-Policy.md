@@ -20,6 +20,7 @@ We are committed to conducting our business in accordance with these principles 
 
 ### <QBrowser>
 This Application does not record any user personal information and location information, the program will protect user privacy, personal information. please assured that use.
+
 * We do not collect and use your personal information and location information.
 
 * Users to use our service, shall comply with the relevant laws, rules and regulations.
