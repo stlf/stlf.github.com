@@ -18,6 +18,18 @@ Your privacy is very important to us. Accordingly, we have developed this Policy
 
 We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.
 
+#### QBrowser Pro
+
+This Application does not record any user personal information and location information, the program will protect user privacy, personal information. please assured that use.
+
+* We do not collect and use your personal information and location information.
+
+* Users to use our service, shall comply with the relevant laws, rules and regulations.
+
+* If customers find any problems in QBrowser Pro,  you can review and ratings QBrowser Pro feedback to us, we will be based on user comments and suggestions to make improvements.
+
+If you use QBrowser Pro that you agree to this Privacy Policy.
+
 #### QBrowser
 
 This Application does not record any user personal information and location information, the program will protect user privacy, personal information. please assured that use.
@@ -29,3 +41,4 @@ This Application does not record any user personal information and location info
 * If customers find any problems in QBrowser,  you can review and ratings QBrowser feedback to us, we will be based on user comments and suggestions to make improvements.
 
 If you use QBrowser that you agree to this Privacy Policy.
+
